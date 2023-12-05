@@ -1,0 +1,8 @@
+pandas
+matplotlib
+numpy
+requests
+aiohttp
+dataclasses
+argparse
+bs4

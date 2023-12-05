@@ -1,0 +1,12 @@
+torch==2.1.0+cu111
+torchvision==0.16.0+cu111
+torchaudio
+transformers==4.34.1
+essential_generators
+configparser
+configargparse
+boto3
+scikit-learn
+tqdm
+pandas
+matplotlib

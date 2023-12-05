@@ -1,0 +1,4 @@
+Latency: (P50, P90, P95)
+0.20250165462493896 0.2402274131774903 0.2729542374610901
+Total time taken for 100 * (1 images) is 12.0637 seconds
+Throughput (num_requests * batch_size /sec) = 8.2894

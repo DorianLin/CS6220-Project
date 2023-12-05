@@ -1,0 +1,45 @@
+RL_tuned_models:
+(0,1) Locutusque/gpt2-large-conversational
+(1,1.5) TheTravellingEngineer/bloom-1b1-RLHF-v2
+(3,7) meta-llama/Llama-2-7b-chat-hf
+(7,13) xxyyy123/mc_data_30k_from_platpus_orca_7b_10k_v1_lora_qkvo_rank14_v2
+(13,35) Yhyu13/oasst-rlhf-2-llama-30b-7k-steps-hf
+(60,70) meta-llama/Llama-2-70b-chat-hf
+fine_tuned_models:
+(0,1) MBZUAI/LaMini-GPT-774M
+(1,1.5) euclaise/falcon_1b_stage3_2
+(1.5,3) heegyu/RedTulu-Uncensored-3B-0719
+(3,7) HyperbeeAI/Tulpar-7b-v0
+(7,13) lvkaokao/mistral-7b-finetuned-orca-dpo-v2
+(13,35) OpenBuddyEA/openbuddy-llama-30b-v7.1-bf16
+(35,60) dfurman/falcon-40b-openassistant-peft
+(60,70) sequelbox/StellarBright
+(70,None) v2ray/LLaMA-2-Jannie-70B-QLoRA
+instruction_tuned_models:
+(0,1) nicholasKluge/Aira-2-774M
+(1,1.5) 42dot/42dot_LLM-SFT-1.3B
+(1.5,3) RWKV/rwkv-raven-3b
+(3,7) Azure99/blossom-v2-llama2-7b
+(7,13) bhenrym14/mistral-7b-platypus-fp16
+(13,35) garage-bAInd/Platypus-30B
+(60,70) MayaPH/GodziLLa2-70B
+(70,None) v2ray/LLaMA-2-Wizard-70B-QLoRA
+pretrained_models:
+(0,1) EleutherAI/pythia-410m
+(1,1.5) microsoft/phi-1_5
+(1.5,3) stabilityai/stablelm-3b-4e1t
+(3,7) 01-ai/Yi-6B
+(7,13) Qwen/Qwen-7B
+(13,35) 01-ai/Yi-34B
+(60,70) TigerResearch/tigerbot-70b-base
+(70,None) tiiuae/falcon-180B
+full:
+(0,1) MBZUAI/LaMini-GPT-774M
+(1,1.5) microsoft/phi-1_5
+(1.5,3) stabilityai/stablelm-3b-4e1t
+(3,7) 01-ai/Yi-6B
+(7,13) lvkaokao/mistral-7b-finetuned-orca-dpo-v2
+(13,35) 01-ai/Yi-34B
+(35,60) TheBloke/Wizard-Vicuna-30B-Uncensored-GPTQ
+(60,70) MayaPH/GodziLLa2-70B
+(70,None) v2ray/LLaMA-2-Wizard-70B-QLoRA

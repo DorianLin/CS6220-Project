@@ -1,0 +1,16 @@
+version: '3'
+services:
+  ray:
+    build: ./
+    working_dir: /home/
+    volumes:
+      - ./:/home/experiment/
+    network_mode: host
+    command: /bin/bash
+    stdin_open: true
+    tty: true
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - capabilities: [gpu]
